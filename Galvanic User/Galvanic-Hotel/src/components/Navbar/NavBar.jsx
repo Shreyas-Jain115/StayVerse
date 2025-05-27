@@ -110,7 +110,7 @@ const Navbar = () => {
               alt="Hotel Galavanic"
             />
             <span className="ml-2 text-lg font-semibold font-barlow whitespace-nowrap">
-              Hotel Galavanic
+              CheckinGo
             </span>
           </div>
           {/* Desktop Nav */}

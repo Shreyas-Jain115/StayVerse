@@ -7,11 +7,11 @@ const Home = () => {
   const navigate = useNavigate();
 
   const imageUrls = [
-    "https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/53464/sheraton-palace-hotel-lobby-architecture-san-francisco-53464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg",
+    "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/6130060/pexels-photo-6130060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg",
-    "https://images.pexels.com/photos/4916534/pexels-photo-4916534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg",
     "https://images.pexels.com/photos/2291624/pexels-photo-2291624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   ];
 
@@ -21,10 +21,10 @@ const Home = () => {
       <div className="container mx-auto px-2 sm:px-4 py-6 sm:py-8 w-full">
         <header className="text-center mb-8 sm:mb-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 font-barlow">
-            Welcome to Hotel Galavanic
+            Welcome to CheckinGo
           </h1>
           <p className="mt-3 sm:mt-4 text-base sm:text-lg text-cyan-600">
-            Experience luxury and comfort at the heart of the city.
+            Effortless hotel management and seamless guest experiences.
           </p>
         </header>
 
@@ -43,22 +43,16 @@ const Home = () => {
 
         <section className="mt-8 sm:mt-12 text-center pb-0">
           <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-600 font-barlow">
-            About Galavanic
+            About CheckinGo
           </h2>
           <p className="mt-3 sm:mt-4 text-gray-600 pt-0 pb-5 text-base sm:text-lg">
-            Hotel Galavanic stands as a beacon of excellence in hospitality,
-            celebrated for its impeccable service and luxurious accommodations.
-            Nestled in a prime location, our hotel offers unparalleled
-            convenience and accessibility, ensuring guests can effortlessly
-            explore the vibrant heart of the city. With a sophisticated design
-            that blends elegance and comfort, every corner of Hotel Galavanic
-            exudes a sense of refinement and tranquility. From the meticulously
-            appointed rooms to the expansive public spaces, every detail is
-            crafted to exceed expectations. Our commitment to excellence extends
-            beyond aesthetics, with premium amenities that cater to the needs of
-            both leisure and business travelers alike. Whether you're seeking
-            relaxation or productivity, Hotel Galavanic promises an
-            unforgettable experience tailored to elevate your stay.
+             CheckinGo is a cutting-edge hotel management platform designed for modern hospitality needs. 
+            We empower multiple hotels to register and manage their operations under one smart ecosystem. 
+            With features like AI-powered facial recognition for secure self check-in and check-out, 
+            CheckinGo redefines convenience for both hotel owners and guests. Our focus is on delivering 
+            frictionless travel experiences—streamlining operations, enhancing safety, and making every 
+            stay more efficient. Whether you're managing a boutique inn or a full-scale resort, 
+            CheckinGo is your trusted partner in elevating hospitality through technology.
           </p>
         </section>
       </div>

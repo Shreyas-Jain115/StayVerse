@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-6 px-2 text-center">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
         <div>
-          <p className="text-lg font-semibold">Hotel Galavanic</p>
+          <p className="text-lg font-semibold">Hotel CheckinGo</p>
           <p className="text-sm mt-1">Address: 123 Hotel Street, City, Country</p>
           <p className="text-sm">Phone: +1234567890</p>
         </div>
