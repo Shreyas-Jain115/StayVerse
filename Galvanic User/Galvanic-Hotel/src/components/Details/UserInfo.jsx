@@ -17,6 +17,9 @@ const UserInfo = () => {
   const [checkingOut, setCheckingOut] = useState(false);
   const [checkoutError, setCheckoutError] = useState(null);
   const [checkoutSuccess, setCheckoutSuccess] = useState(false);
+  const NGROK_HEADERS = {
+  "ngrok-skip-browser-warning": "true"
+};
   if(showScanner&&!verified) {
     navigate("/verify-face", {
       state: {
@@ -74,7 +77,9 @@ const UserInfo = () => {
       for (const booking of bookingsToCheckIn) {
         await fetch(
           `${API_BASE_URL}/booking/${booking.bookingId}/checkIn`,
-          { method: "PUT" }
+          { method: "PUT",
+            headers: NGROK_HEADERS
+           }
         );
       }
       setShowScanner(false);

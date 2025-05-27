@@ -10,7 +10,9 @@ const AadhaarUpload = () => {
   const [file, setFile] = useState(null);
   const [uploadedImg, setUploadedImg] = useState(null);
   const [error, setError] = useState(null);
-
+  const NGROK_HEADERS = {
+  "ngrok-skip-browser-warning": "true"
+};
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     if (selectedFile && selectedFile.type === "image/jpeg") {
@@ -41,7 +43,7 @@ const AadhaarUpload = () => {
       // Send the file to the backend
       await axios.post(`${API_BASE_URL}/addOrUpdate`, formData, {
         headers: {
-          "Content-Type": "multipart/form-data",
+          "Content-Type": "multipart/form-data",NGROK_HEADERS
         },
       });
 

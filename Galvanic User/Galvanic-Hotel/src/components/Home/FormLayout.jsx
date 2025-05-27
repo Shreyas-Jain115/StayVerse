@@ -8,7 +8,9 @@ function FormLayout() {
   const [formData, setFormData] = useState({});
   const navigate = useNavigate();
   const { setUserDao } = useContext(UserContext); // Corrected property name
-
+  const NGROK_HEADERS = {
+  "ngrok-skip-browser-warning": "true"
+};
   // Removed useEffect for redirect
 
   const handleChange = (e) => {
@@ -22,7 +24,9 @@ function FormLayout() {
         const response = await axios.post(
           `${API_BASE_URL}/login`,
           null,
-          { params: formData }
+          { params: formData,
+            headers: NGROK_HEADERS,
+           }
         );
         // Store credentials for session refresh
         const userWithCreds = {
