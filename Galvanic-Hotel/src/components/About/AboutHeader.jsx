@@ -5,30 +5,23 @@ const AboutHeader = () => {
     <div className="flex flex-col md:flex-row items-center bg-gray-100 dark:bg-gray-800 p-5 rounded-lg mb-6">
       <div className="w-full md:w-1/2 text-gray-800 dark:text-gray-200 md:pr-6">
         <h2 className="text-7xl font-bold mb-4 p-2 font-barlow">
-          Welcome to Hotel Galvanic
+          Welcome to CheckinGo
         </h2>
-        <p className="p-4  text-cyan-600">
-          Whether you are here for business or leisure, our dedicated staff is
-          here to cater to your every need. Experience the best in hospitality
-          with us.
+        <p className="p-4 text-cyan-600">
+          Empowering modern hotels with smart management and seamless guest experiences.
         </p>
         <p className="mb-4 pl-4">
-          Hotel Galvanic, nestled in the heart of New York City, embodies the
-          essence of luxury and comfort, making it your ultimate destination for
-          a memorable stay. Ideally located amidst the bustling streets of
-          Manhattan, our hotel caters to discerning travelers seeking
-          sophistication and convenience. Our commitment to excellence shines
-          through in every aspect of your experience, from impeccable service to
-          meticulously curated amenities. Whether you're here for leisure or
-          business, Hotel Galvanic ensures a stay that surpasses expectations,
-          promising a blend of tranquility and indulgence that feels like a home
-          away from home.
+          CheckinGo is a cutting-edge hotel management platform designed to streamline operations, 
+          enhance safety, and deliver frictionless travel experiences. Whether you're managing a boutique inn or a full-scale resort, 
+          our AI-powered facial recognition, intuitive dashboards, and secure infrastructure ensure efficient and convenient stays for your guests. 
+          Experience the future of hospitality with CheckinGo, your trusted partner in smart hotel management.
         </p>
       </div>
       <div className="w-full md:w-1/2 flex justify-end p-4 shadow-xl">
         <img
-          src="https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg"
-          alt="Hotel Galvanic"
+          src= "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
+
+          alt="CheckinGo Hotel Management"
           className="rounded-lg shadow-lg"
         />
       </div>

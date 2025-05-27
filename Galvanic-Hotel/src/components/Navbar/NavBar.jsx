@@ -19,7 +19,6 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -35,7 +34,7 @@ const Navbar = () => {
     <nav
       className={`${
         isNavbarFixed
-          ? "fixed top-0 inset-x-0 bg-gray-800  shadow-xl z-50 transition-all duration-300 ease-in-out text-white"
+          ? "fixed top-0 inset-x-0 bg-gray-800 shadow-xl z-50 transition-all duration-300 ease-in-out text-white"
           : "bg-gray-800 text-white"
       }`}
     >
@@ -45,10 +44,10 @@ const Navbar = () => {
             <img
               className="h-20 p-5"
               src="./src/components/Navbar/logo.png"
-              alt="Hotel Galavanic"
+              alt="CheckinGo Logo"
             />
             <span className="ml-2 text-lg font-semibold font-barlow">
-              Hotel Galavanic
+              CheckinGo
             </span>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
@@ -112,7 +111,6 @@ const Navbar = () => {
           </div>
           {/* Hamburger menu for mobile view */}
           <div className="md:hidden">
-            {/* Replace with your mobile menu toggle button */}
             <button className="text-white hover:text-gray-300">Menu</button>
           </div>
         </div>
