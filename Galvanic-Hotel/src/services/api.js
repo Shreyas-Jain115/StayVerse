@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-export const API_BASE_URL = 'https://a505-2401-4900-1cb9-c525-74be-b667-964e-9fba.ngrok-free.app/hotel';
+export const API_BASE_URL = 'https://c77e-2401-4900-1cb9-c525-74be-b667-964e-9fba.ngrok-free.app/hotel';
 
-export const API_BASE_URL1 = 'https://a505-2401-4900-1cb9-c525-74be-b667-964e-9fba.ngrok-free.app/user';
+export const API_BASE_URL1 = 'https://c77e-2401-4900-1cb9-c525-74be-b667-964e-9fba.ngrok-free.app/user';
 const NGROK_HEADERS = {
   "ngrok-skip-browser-warning": "true"
 };
