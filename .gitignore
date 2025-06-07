@@ -1,0 +1,2 @@
+# ignore GCP credentials
+hotel_management_system/backend/serviceAccountKey.json
