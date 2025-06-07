@@ -1,29 +1,43 @@
-StayVerse – Seamless Hotel Booking and Management System Empowering Hotels with Smart Bookings
-and Real-Time Management
-• Developed an intuitive platform where hotels can register, manage their listings, and access a comprehensive dashboard
-for seamless operations.
-• Integrated dynamic pricing to adjust room rates based on demand, seasonality, and booking trends.
-• Enabled automatic web check-in leveraging QR codes and face authentication for secure, hassle-free entry.
-• Provided users with a smooth booking experience—select hotels, browse room types, and confirm reservations with
-real-time availability.
-• Built with a robust tech stack:
-– Backend: Spring Boot, Spring JPA, and REST Controllers for reliable data management and smooth API
-communication.
-– Frontend: React, Tailwind CSS for interactive UI, and react-qr-reader for QR-based check-ins.
-– Authentication: Firebase for secure login and user session handling.
-• Provided an admin dashboard with analytics, room status tracking, and real-time booking updates to streamline hotel
-operations.
-(Need to add serviceAccountKey.json in /backend (aiml code):
-{
-  "type":,
-  "project_id":,
-  "private_key_id":,
-  "private_key":,
-  "client_email":,
-  "client_id": ,
-  "auth_uri":,
-  "token_uri":,
-  "auth_provider_x509_cert_url":,
-  "client_x509_cert_url":,
-  "universe_domain":
-}
+# 🏨 StayVerse – Seamless Hotel Booking and Management System
+
+**Empowering Hotels with Smart Bookings and Real-Time Management**
+
+StayVerse is an intuitive hotel booking and management platform that allows hotels to register, manage listings, and track bookings — while giving users a smooth reservation experience with real-time availability and secure check-ins.
+
+---
+
+## 🚀 Features
+
+- 🏨 Hotel Registration & Dashboard: Hotels can sign up, manage listings, and track activity through a detailed dashboard.
+- 💸 Dynamic Pricing Engine: Automatically adjusts room rates based on demand, seasonality, and booking trends.
+- 🔐 Secure Check-In: QR code + face authentication for a touchless, secure check-in process.
+- 📆 Real-Time Booking: Guests can view real-time room availability and confirm reservations instantly.
+- 📊 Admin Insights: View room status, occupancy, and booking analytics via a real-time admin panel.
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- Spring Boot
+- Spring Data JPA
+- REST APIs
+- MySql
+### Frontend
+- React.js
+- Tailwind CSS
+- react-qr-reader (for QR check-in)
+
+### Authentication
+- Firebase Authentication
+- Firebase Storage
+---
+
+## 🧠 AI/ML Integration
+
+To store image for face authentication firestore is required . To enable this, a `serviceAccountKey.json` file is required.
+Keep `serviceAccountKey.json` file in backend folder
+
+
+
+
